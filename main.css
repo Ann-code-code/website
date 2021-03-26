@@ -1,0 +1,126 @@
+.home-bg{
+    background: url(Wallpaper\ 4k\ Avengers\ Endgame\ 4k\ 2019\ 2019\ movies\ wallpapers\,\ 4k-wallpapers\,\ avengers\ endgame\ wallpapers\,\ avengers-wallpapers\,\ captain\ america\ wallpapers\,\ captain\ america\ wallpapersthor\ wallpapers\,\ captain\ marvel\ w.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+}
+
+.nav p {
+    display: flex;
+    align-items: flex-start;
+}
+.nav img {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav{
+    font-size: 28px;
+    display:flex;
+    justify-content: space-around;
+    background-color: darkred;
+    border-style: solid;
+    border-radius:initial;
+    margin: 25px;
+    padding: 25px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* Importing the Roboto font from Google Fonts. */
+@import url("https://fonts.googleleapis.com/css?family=Roboto:400");
+
+/* Set fon of all element to 'Roboto' */
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Remove outline of all elements on focus */
+*:focus {
+    outline: 0;
+}
+body{
+    background:transparent; 
+}
+h3 {
+    text-align: center;
+}
+
+/* Add styles to 'label' selector */
+label {
+    font-size: 0.85em;
+    margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text], input[type=email],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus, input[typ=email]:focus, textarea:focus {
+    border: 1px solid red
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+    background: #64b5f6;
+    margin: 0 auto;
+    outline: 0;
+    color: white;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition: all ease-in-out 0.1s;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+    background: #A5D6A7;
+    color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+    background: #2196f3;
+
+}
+/* Align items to center of the 'div' with the class 'center'*/
+ .center {
+     text-align: center;
+ }
+ 
+ p {
+    color:black; 
+    text-align: center;
+    text-emphasis:8px; 
+    background-color: rgb(red, green, blue);
+    text-size-adjust:60px;
+ }
+
+ p{
+     padding: 50px;
+     border:darkred;
+     border-style: solid;
+     background-color: lightgrey;
+     size: 1px;
+     margin: 50px;
+ }
